@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="logotag.png">
+
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="aboutpage.css">
+    <link rel="stylesheet" href="educationpage.css">
+    <link rel="stylesheet" href="experiencepage.css">
+    <link rel="stylesheet" href="contactpage.css">
+
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">  
+      
+    <script src="https://kit.fontawesome.com/299129e502.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo"><h1>Carl <span>John </span><span><i class="fa-solid fa-user"></i></span></h1></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"><h1>Carl <span>John </span><span><i class="fa-solid fa-user"></i></span></h1></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        </div>
+       </div>
+    </nav>
+<!--Homepage Section-->
+
+    <header class="header-1">
+    <section id="profile">
+        <div class="section-pic-container">
+            <img src="Profile-pictures/pfp.png" alt="John Carlo profile picture" class="pic">
+            <div class="glow-border"></div>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hi there! Welcome to my portfolio</p>
+            <h1 class="title">I am John Carlo</h1>
+            <p class="section_text_p2">Front End Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color" onclick="location.href='./#contact'">Contact Me <i class="fa-regular fa-address-book"></i></button>
+            </div>
+            <div id="socials-container">
+                <img src="Icons/fblogo.png" alt="My Facebook profile" class="icon" onclick="location.href='https://www.facebook.com/johncarlo.pornia.x'">
+                <img src="Icons/igicon.png" alt="My Facebook profile" class="icon" onclick="location.href='https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fn3bul4.x%3Figsh%3DMXY4M2F4N3Y4aHIyMQ%253D%253D%26utm_source%3Dqr%26fbclid%3DIwZXh0bgNhZW0CMTAAAR3mU4PCLEI1D4UEpp1D1yS0vfvypVdAsrN2TAvu4w695AqSi-cbTQ8J3_E_aem__4aeCy5SmIPbMSLntW4Hog&h=AT3WDM-rN1UVwZQvOvcjjbsATPl_sItLHa3fHvs_yI6Zc23IVJutxTNTTEkz16f1NNR9x5vG3rhW2nVWjcFV5VF8ahQGLGdTecpxSMDf4SKDAxuSaX-IBEKQZ8hi2BTKzk6439iJXCA'">
+                <img src="Icons/github.png" alt="My Facebook profile" class="icon" onclick="location.href='https://github.com/carljohnx'">
+            </div>
+        </div>
+    </section>
+    </header>
+
+
+<!--About Section-->
+    <header class="header-2">
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="Profile-pictures/aboutmepic.jpg" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                  <h2 class="about-text">Hello! I'm John Carlo Pornia</h2>
+                </div>
+                <div class="text-container-2">
+                  <p class="p-container">I'm an IT student interested in exploring new technologies and enhancing my skills. With some experience in web development, I'm focusing on front-end technologies and eager to continue learning and growing in the tech field.</p>
+                </div>
+                <hr class="line-cont">
+                <div class="about-details-container">
+                   <div class="about-containers">
+                       <div class="details-container">
+                         <img src="Icons/abouticon.png" alt="About icon" class="icon">
+                          <h3>Name:</h3>
+                          <p>John Carlo Pornia</p>
+                          <h3>Age:</h3>
+                          <p>19</p>
+                          <h3>Birthday:</h3>
+                          <p>July 13, 2005</p>
+                    </div>
+                     <div class="details-container">
+                        <img src="Icons/abouticon.png" alt="About icon" class="icon">
+                         <h3>From:</h3>
+                         <p>Philippines</p>
+                         <h3>Status:</h3>
+                         <p>Student</p>
+                         <h3>Hobbies:</h3>
+                         <p>Gaming, Music, Photography, Drawing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="download-btn">
+         <button class="button button-color" onclick="window.open('CV.pdf')">My CV <i class="fa-solid fa-circle-down"></i></button>
+    </div>
+ </header>
+
+
+<!--Education Section-->
+    <header class="header-3">
+        <section id="education">
+            <p class="section_text_p1">Know My</p>
+            <h1 class="title">Education</h1>
+            <div class="edu-list">
+                <ul class="list-container">
+                    <li class="edu"><img src="Edu-Images/DepEd.png" alt="Lourmah Image" class="image" onclick="location.href='https://www.facebook.com/lourmah.elem/'">Lourmah Elementary School<p class="year-1">2010-2017</p><hr><p class="ed-1">Click the image to get to their Facebook page</p></li>
+                    <li class="edu"><img src="Edu-Images/MVTS.png" alt="MVTS Image" class="image" onclick="location.href='https://www.facebook.com/mvtsseniorHS/'">Molave Vocational Technical School<p class="year-2">2017-2023</p><hr><p class="ed-2">Click the image to get to their Facebook page</p></li>
+                    <li class="edu"><img src="Edu-Images/NMSC.png" alt="NMSCST Image" class="image" onclick="location.href='https://www.nmsc.edu.ph/about_us/school_seal'">Northwestern Mindanao State College of Science and Technology<p class="year-3">2023-2027</p><hr><p class="ed-3">Click the image to get to their Web page</p></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+
+<!--Experience Section-->
+    <header class="header-4">
+        <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Front End Developer</h2>
+                        <hr>
+                        <div class="article-container">
+                            <article>
+                                <img src="Icons/clickmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced<p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Icons/clickmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Icons/clickmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>JAVASRIPT</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="Icons/clickmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>JAVA</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                       
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Personal Porfolio Website</h2>
+                        <hr>
+                        <div class="article-container">
+                            <article>
+                                <div>
+                                    <p class="text">• Created website using HTML, CSS, and JavaScript.</p>
+                                </div>
+                            </article>
+                            <article>
+                                <div>                      
+                                    <p class="text">• Incorporated interactive features such as a dynamic navigation menu and smooth scrolling.</p>
+                                </div>
+                             </article>
+                             <article>
+                                <div>
+                                   <p class="text">• Implemented responsive design for mobile and desktop viewing.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                     <div class="details-container">
+                         <h2 class="experience-sub-title">Technical Skills</h2>
+                         <hr>
+                        <div class="article-container">
+                            <article>
+                                <img src="Icons/clickmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Programming Languages:</h3>
+                                    <p>Java, HTML, CSS, JavaScript</p>  
+                                </div>                                 
+                             </article>
+                             <article>
+                                <img src="Icons/clickmark.png" alt="Experience icon" class="icon">
+                                  <div>
+                                      <h3>Tools:</h3>
+                                     <p>Netbeans, Visual Studio Code</p>
+                                   </div>
+                            </article>
+                            <article>
+                                <img src="Icons/clickmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Operating Systems:</h3>
+                                   <p>Windows, MacOS</p>
+                                 </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+<!--Contact Section-->
+    <header class="header-5">
+        <section id="contact">
+            <p class="section_text_p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="Icons/email.png" alt="mail icon" class="icon contact-icon">
+                    <p><a href="mailto:johncarlopornia729@gmail.com">johncarlopornia729@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="Icons/contact.png" alt="phone icon" class="icon contact-icon">
+                    <p><a href="tell:+639701151381">+63-970-115-1381</a></p> 
+                </div>
+                <div class="contact-info-container">
+                    <img src="Icons/linkedinlogo.webp" alt="linkedin icon" class="icon contact-icon">               
+                    <p><a href="https://www.linkedin.com/in/john-carlo-pornia-751aa6330/">My Linked In</a></p> 
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+<!--Footer---->
+    <footer>
+        <nav>
+            <div class="links-container">
+                <ul class="nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

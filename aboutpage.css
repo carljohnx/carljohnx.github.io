@@ -1,0 +1,120 @@
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+#about {
+    padding-top: 0;
+}
+
+.header-2 {
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur (10px);
+    border-radius: 1rem;
+    border: #00ffea 1px solid;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.about-text {
+    color: #d6ffff;
+}
+
+.text-container-2 {
+    color: #F0FBFF;
+    font-size: 1.2rem;
+}
+
+.line-cont {
+    border: solid 1px #507687;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-details-container {
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.p-container {
+    color: #fdfee7;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+    box-shadow: 0 0 30px ;
+    object-fit: cover;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5); 
+    transform: rotateX(15deg) rotateY(15deg) translateZ(30px); 
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur (10px);
+    border-radius: 2rem;
+    border: #00ffea 1px solid;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); 
+}
+
+.details-container h3 {
+    font-weight: bold;
+    color: rgb(191, 252, 237);
+}
+
+.details-container p {
+    color: #ffffff;
+}
+
+div.section-container {
+    gap: 4rem;
+    height: 100%;
+
+}
+
+.section_pic-conatiner {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section-container {
+    height: 100%;
+}
+
+.section_pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    perspective: 1000px;
+    margin-left: auto;
+}
